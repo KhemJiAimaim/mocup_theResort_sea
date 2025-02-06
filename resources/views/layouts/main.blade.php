@@ -21,7 +21,7 @@
 
     @include('layouts.navbar')
 
-    <div class="">
+    <div class="font-almarai">
         <div class="overflow-hidden">
             @yield('contents')
         </div>
