@@ -7,7 +7,7 @@
                 <divp class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in"
                     data-aos-duration="1000">
                     <div class="flex flex-col justify-center items-center sm:gap-y-8 gap-6">
-                        <div class="flex items-center justify-center gap-2 ss:w-[500px] w-[80%] mt-12 ">
+                        <div class="flex items-center justify-center gap-2 ss:w-full w-[80%] mt-12 ">
                             <span class="ss:w-36 xx:w-14 w-6 h-[1px] bg-white rounded-full "></span>
                             <p class="ss:w-[300px] w-full font-light xl:text-3xl ss:text-lg text-base text-white ss:tracking-[8px] tracking-widest"
                                 data-aos="zoom-in " style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
@@ -42,7 +42,7 @@
                 <divp class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in"
                     data-aos-duration="1000">
                     <div class="flex flex-col justify-center items-center sm:gap-y-8 gap-6">
-                        <div class="flex items-center justify-center gap-2 ss:w-[500px] w-[50%] mt-12 ">
+                        <div class="flex items-center justify-center gap-2 ss:w-full w-[50%] mt-12 ">
                             <span class="ss:w-36 xx:w-14 w-6 h-[1px] bg-white rounded-full "></span>
                             <p class="ss:w-[300px] w-full font-light xl:text-3xl ss:text-lg text-base text-white ss:tracking-[8px] tracking-widest"
                                 data-aos="zoom-in " style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
