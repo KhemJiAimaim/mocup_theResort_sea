@@ -6,10 +6,10 @@ document.addEventListener("DOMContentLoaded", function () {
             el: ".swiper-pagination1",
             clickable: true,
         },
-        // autoplay: {
-        //     delay: 6000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 6000,
+            disableOnInteraction: false,
+        },
         slidesPerView: 1, // แสดงเพียง 1 slide
         spaceBetween: 0, // ไม่มีช่องว่างระหว่าง slide
         mousewheel: true, // เลื่อนด้วยเมาส์
