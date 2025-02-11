@@ -1,21 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
     var swiper = new Swiper(".mySwiper", {
         loop: true,
-        pagination:"true",
+        direction: 'vertical',
         pagination: {
             el: ".swiper-pagination1",
             clickable: true,
         },
-        autoplay: {
-            delay: 6000,
-            disableOnInteraction: false,
-        },
-        slidesPerView: 1, // แสดงทีละ 1 slide
+        // autoplay: {
+        //     delay: 6000,
+        //     disableOnInteraction: false,
+        // },
+        slidesPerView: 1, // แสดงเพียง 1 slide
         spaceBetween: 0, // ไม่มีช่องว่างระหว่าง slide
-        // mousewheel: true, // ให้เลื่อนด้วยเมาส์
+        mousewheel: true, // เลื่อนด้วยเมาส์
     });
 });
-
 
 console.log("preview_img");
 

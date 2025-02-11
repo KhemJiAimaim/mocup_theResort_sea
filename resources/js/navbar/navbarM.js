@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         submenu.classList.toggle("hidden");
         submenu.classList.toggle("scale-100");
         submenu.classList.toggle("scale-95");
-        submenu.classList.toggle("duration-500" );
+        submenu.classList.toggle("duration-300" );
 
         // Rotate arrow icon
         arrowUp.classList.toggle("rotate-180");

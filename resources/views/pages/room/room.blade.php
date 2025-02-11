@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     our room
                 </p>
             </div>
@@ -36,11 +36,11 @@
                 <div
                     class="max-w-[1320px] mx-auto w-full grid sm:grid-cols-2 grid-cols-1 place-items-center sm:gap-6 ss:gap-6 gap-4">
                     {{-- 1 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
 
                         <div class="slider-container xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
-                                <div class="slider-content flex w-full transition-transform duration-500 ease-in-out ">
+                                <div class="slider-content flex w-full transition-transform duration-300 ease-in-out ">
                                     <img src="/images/img/sddfsdf.png"
                                         class="w-full h-full object-cover rounded-t-md shadow-md">
                                 </div>
@@ -74,8 +74,8 @@
                                 </div>
 
                                 <div class="flex justify-center gap-1 bg-white p-1 px-2 rounded-full items-center">
-                                    <div class="w-[30px] h-auto">
-                                        <img src="/images/icon/Group 471.png" alt="">
+                                    <div class="w-[20px] h-auto">
+                                        <img src="/images/icon/Group 471 (1).png" alt="">
                                     </div>
                                     <p class="text-black ss:text-base text-sm font-[500]">53 sq.m.</p>
                                 </div>
@@ -90,11 +90,11 @@
 
 
 
-
-                            <a href="/room/detail"
-                                class="transition-all ease-in-out duration-500 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
-
+                            <div class="flex justify-center items-center">
+                                <a href="/room/detail"
+                                    class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                            </div>
 
                             <div
                                 class="absolute top-4 right-0 p-1 px-2 w-40 items-center flex justify-center font-[700] bg-[#C39963] text-white ss:text-xl text-lg ">
@@ -104,10 +104,10 @@
                     </div>
 
                     {{-- 2 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
-                                <div class="slider-content flex w-full transition-transform duration-500 ease-in-out">
+                                <div class="slider-content flex w-full transition-transform duration-300 ease-in-out">
                                     <img src="/images/img/dfdsfgdfr.png"
                                         class="w-full h-full object-cover rounded-t-md shadow-md">
                                     <img src="/images/img/dfdsfgdfr.png"
@@ -143,8 +143,8 @@
                                 </div>
 
                                 <div class="flex justify-center gap-1 bg-white p-1 px-2 rounded-full items-center">
-                                    <div class="w-[30px] h-auto">
-                                        <img src="/images/icon/Group 471.png" alt="">
+                                    <div class="w-[20px] h-auto">
+                                        <img src="/images/icon/Group 471 (1).png" alt="">
                                     </div>
                                     <p class="text-black ss:text-base text-sm font-[500]">53 sq.m.</p>
                                 </div>
@@ -159,10 +159,11 @@
 
 
 
-
-                            <a href="/room/detail"
-                                class="transition-all ease-in-out duration-500 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                <div class="flex justify-center items-center">
+                                    <a href="/room/detail"
+                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                </div>
 
 
                             <div
@@ -173,11 +174,11 @@
                     </div>
 
                     {{-- 3 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
 
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
-                                <div class="slider-content flex w-full transition-transform duration-500 ease-in-out">
+                                <div class="slider-content flex w-full transition-transform duration-300 ease-in-out">
                                     <img src="/images/img/lkhl.png"
                                         class="w-full h-full object-cover rounded-t-md shadow-md">
                                     <img src="/images/img/lkhl.png"
@@ -213,8 +214,8 @@
                                 </div>
 
                                 <div class="flex justify-center gap-1 bg-white p-1 px-2 rounded-full items-center">
-                                    <div class="w-[30px] h-auto">
-                                        <img src="/images/icon/Group 471.png" alt="">
+                                    <div class="w-[20px] h-auto">
+                                        <img src="/images/icon/Group 471 (1).png" alt="">
                                     </div>
                                     <p class="text-black ss:text-base text-sm font-[500]">53 sq.m.</p>
                                 </div>
@@ -230,9 +231,11 @@
 
 
 
-                            <a href="/room/detail"
-                                class="transition-all ease-in-out duration-500 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                <div class="flex justify-center items-center">
+                                    <a href="/room/detail"
+                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                </div>
 
 
                             <div
@@ -243,11 +246,11 @@
                     </div>
 
                     {{-- 4 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="3000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
 
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
-                                <div class="slider-content flex w-full transition-transform duration-500 ease-in-out">
+                                <div class="slider-content flex w-full transition-transform duration-300 ease-in-out">
                                     <img src="/images/img/bfghnjyt.png" class="w-full h-full rounded-t-md shadow-md">
                                 </div>
 
@@ -280,8 +283,8 @@
                                 </div>
 
                                 <div class="flex justify-center gap-1 bg-white p-1 px-2 rounded-full items-center">
-                                    <div class="w-[30px] h-auto">
-                                        <img src="/images/icon/Group 471.png" alt="">
+                                    <div class="w-[20px] h-auto">
+                                        <img src="/images/icon/Group 471 (1).png" alt="">
                                     </div>
                                     <p class="text-black ss:text-base text-sm font-[500]">53 sq.m.</p>
                                 </div>
@@ -297,9 +300,11 @@
 
 
 
-                            <a href="/room/detail"
-                                class="transition-all ease-in-out duration-500 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                <div class="flex justify-center items-center">
+                                    <a href="/room/detail"
+                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                                </div>
 
 
                             <div
@@ -312,9 +317,6 @@
                 </div>
             </div>
         </div>
-
-
-
     </section>
 @endsection
 

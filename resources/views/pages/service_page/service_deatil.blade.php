@@ -16,9 +16,9 @@
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-30"></div>
         </div>
     </section>
-
-    <section class="md:py-12 py-6 overflow-hidden">
-        <div class="max-w-[1320px] m-auto py-8 px-4 flex flex-col ss:gap-y-12 gap-y-8">
+<div class="py-8">
+    <section class="pb-8 overflow-hidden">
+        <div class="max-w-[1320px] m-auto  px-4 flex flex-col ss:gap-y-12 gap-y-8">
             <div class="flex flex-row items-center justify-start gap-4">
                 <div class="max-w-[50px] h-auto">
                     <img src="/images/icon/ion_restaurant-outline (1).png" alt="">
@@ -63,26 +63,26 @@
     </section>
 
 
-    <section class="relative my-12 overflow-hidden">
+    <section class="relative  overflow-hidden">
         <div class="absolute w-full h-full">
             <img src="/images/img/Mask group.png" alt="Banner Image" class="w-full h-full object-cover">
             <div class="absolute top-0 left-0 w-full h-full bg-black opacity-20"></div>
         </div>
 
         <div  class="relative text-white max-w-[1536px] mx-auto pt-12 pb-6 z-50 flex flex-col gap-y-8 justify-center items-center">
-            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="3000">
+            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="1000">
                 <p class="text-[#03203E] xltext-2xl ss:text-lg text-base tracking-widest uppercase">BOOK NOW!</p>
                 <p class="text-black xl:text-4xl ss:text-2xl text-lg tracking-widest capitalize font-[600]">Welcome To The Resort</p>
                 <p class="text-black xl:text-4xl ss:text-2xl text-lg tracking-widest capitalize font-[600]">Book Your Stay Today.</p>
             </div>
 
-            <div class="" data-aos="fade-up" data-aos-duration="1000">
+            <div class="" data-aos="zoom-in" data-aos-duration="500">
                 <a href="{{route('room.index')}}"
-                    class="transition-all bg-transparent ease-in-out duration-500 text-[#03203E] hover:text-white sm:text-lg text-base rounded-full flex justify-center uppercase border border-[#03203E] items-center text-center shadow-md font-light p-2 w-52 font-[500] m-auto hover:bg-[#03203E] hover:border-[#03203E]"
+                    class="transition-all bg-transparent ease-in-out duration-300 text-[#03203E] hover:text-white sm:text-lg text-base rounded-full flex justify-center uppercase border border-[#03203E] items-center text-center shadow-md font-light p-2 w-52 font-[500] m-auto hover:bg-[#03203E] hover:border-[#03203E]"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">book YOUR ROOM</a>
             </div>
         </div>
-    </section>
+    </section></div>
     
 @endsection
 

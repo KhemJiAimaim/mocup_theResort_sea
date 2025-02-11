@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     our GALLERY
                 </p>
             </div>
@@ -34,12 +34,12 @@
             {{-- GALLERY --}}
             <div class="2xl:py-6 lg:mt-16 mt-4">
                 <div
-                    class="max-w-[1536px] m-auto grid sm:grid-cols-3 grid-cols-2 sm:gap-6 gap-4 my-6 image-gallery transition-all ease-in-out duration-500">
+                    class="max-w-[1536px] m-auto grid sm:grid-cols-3 grid-cols-2 sm:gap-6 gap-4 my-6 image-gallery transition-all ease-in-out duration-300">
 
                     @for ($i = 0; $i < 2; $i++)
                         {{-- 1 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/1111.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -52,7 +52,7 @@
 
                         {{-- 2 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/2222.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -65,7 +65,7 @@
 
                         {{-- 3 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/3333.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -78,7 +78,7 @@
 
                         {{-- 4 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/4444.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -91,7 +91,7 @@
 
                         {{-- 5 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/5555.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -104,7 +104,7 @@
 
                         {{-- 6 --}}
                         <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                            data-aos="zoom-in" data-aos-duration="3000">
+                            data-aos="zoom-in" data-aos-duration="1000">
                             <img src="/images/img/6666.png" alt="Image"
                                 class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                             <div
@@ -184,9 +184,11 @@
             </div>
 
             <div class="flex justify-center items-center cursor-pointer group mt-2" id="popup-close">
-                <p
-                    class="border-2 flex justify-center items-center sm:w-10 sm:h-10 w-8 h-8 bg-white rounded-full text-black group-hover:text-red-500 group-hover:border-red-500 transition-all duration-300 ease-in-out">
-                    X</p>
+                <div class="w-12 h-12 cursor-pointer border-2 flex justify-center items-center bg-white rounded-full p-2 
+                 group-hover:border-[#03203E] transition-all duration-300 ease-in-out"
+                    id="close-cate">
+                    <img src="/images/icon/close-bold-svgrepo-com.png" alt="Close Icon" class="w-full h-full">
+                </div>
             </div>
         </div>
     </div>

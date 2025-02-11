@@ -2,7 +2,7 @@
     class="fixed w-full z-[80] mx-auto bg-[#03203E]/50 backdrop-blur-sm text-white items-center py-2 max-xl:px-2 transition-all duration-100 ">
     <div class="max-w-[1536px] m-auto flex justify-between gap-2 items-center">
         <div class="flex justify-start sm:text-xl text-base font-light sm:p-4 lg:hidden">
-            <a href="/">LOGO HERE</a>
+            <a href="/">LOGO</a>
         </div>
 
         <button data-collapse-toggle="navbar-dropdown" type="button"
@@ -26,19 +26,19 @@
             <div class="w-full flex flex-row justify-between">
                 <a href="/" class="flex justify-center min-w-[100px] basis-24">
                     <div id="text_menu" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                        class="{{ request()->is('/') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]  {{ request()->is('/') ? 'border-b-2 border-white' : '' }}">
+                        class="{{ request()->is('/') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]  {{ request()->is('/') ? 'border-b-2 border-white' : '' }}">
                         HOME
                     </div>
                 </a>
                 <a href="/room" class="flex justify-center basis-24">
                     <div style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);"
-                        class="{{ request()->routeIs('room.index') || request()->routeIs('room.detail') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        class="{{ request()->routeIs('room.index') || request()->routeIs('room.detail') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                         ROOM
                     </div>
                 </a>
                 <div class="relative">
-                    <div class="flex justify-between items-center gap-4 {{ request()->is('service*') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                    <div class="flex justify-between items-center gap-4 {{ request()->is('service*') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                         <a href="/service" class="flex justify-center basis-24"
                             style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                             SERVICE
@@ -87,15 +87,14 @@
             </div>
 
             <div class="lg:w-full m-auto flex justify-center sm:text-xl text-base font-light sm:p-4 ทป">
-                <a href="/" class="text-2xl font-[500]" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">LOGO
-                    HERE</a>
+                <a href="/" class="text-2xl font-[500]" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">LOGO</a>
             </div>
 
             <div class="w-full flex flex-row justify-between">
                 <a href="/contact" class="flex justify-center basis-24"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     <div
-                        class="{{ request()->is('contact') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        class="{{ request()->is('contact') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                         CONTACT
                     </div>
@@ -103,7 +102,7 @@
                 <a href="/gallery" class="flex justify-center basis-24"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     <div
-                        class="{{ request()->is('gallery') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        class="{{ request()->is('gallery') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                         GALLERY
                     </div>
@@ -111,7 +110,7 @@
                 <a href="/about-us" class="flex justify-center basis-24"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     <div
-                        class="{{ request()->is('about-us') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        class="{{ request()->is('about-us') ? 'border-b-2 border-white' : '' }} relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-300 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-300 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
 
                         ABOUT US
                     </div>
@@ -159,15 +158,15 @@
                                 SERVICE
                             </div>
                         </a>
-                        <div class="w-[20px] h-auto flex justify-center items-center  hover:scale-110"
+                        {{-- <div class="w-[20px] h-auto flex justify-center items-center  hover:scale-110"
                             id="open-submenu-m">
                             <img src="/images/icon/ep_arrow-up.png" alt=""
                                 class="w-full h-full transition-transform duration-300 ease-in-out filter invert group-hover:invert-0 {{ request()->is('service*') ? 'bg-[#03203E] text-white filter invert-0' : '' }}" id="arrow-up-m">
-                        </div>
+                        </div> --}}
                     </div>
 
                     <div id="submenu-m"
-                        class="hidden w-full rounded-sm pl-8 mt-2 scale-95 transition-transform ease-in-out duration-300 flex flex-col text-[#3E3E3E] font-[500] ss:text-lg text-base capitalize">
+                        class=" w-full rounded-sm pl-4  scale-95 transition-transform ease-in-out duration-300 flex flex-col text-[#3E3E3E] font-[500] text-lg capitalize">
                         <a href="{{ route('service.restaurant') }}"
                             class="p-1 hover:text-white rounded-md hover:bg-[#03203E] {{ request()->routeIs('service.restaurant') ? 'bg-[#03203E] text-white' : '' }}">
                             Restaurant
@@ -200,8 +199,6 @@
 
                     </div>
                 </div>
-
-
                 <hr>
                 <a href="/contact"
                     class="{{ request()->is('contact') ? 'bg-[#03203E] text-white ' : '' }} flex justify-start p-2 rounded-md hover:text-white hover:bg-[#03203E] ">

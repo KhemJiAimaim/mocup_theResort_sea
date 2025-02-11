@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="3000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl uppercase ss:tracking-[8px] tracking-widest text-white"
-                    data-aos="zoom-in" data-aos-duration="3000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     our sERvices
                 </p>
             </div>
@@ -35,7 +35,7 @@
                 class="flex flex-col max-sm:gap-4 max-w-[1320px] m-auto items-center justify-between bg-transparent bg-[#F8F8F8] z-50 rounded-sm">
                 {{-- 1 --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-right"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div
                         class="w-full lg:h-[400px] ss:h-[300px] h-[250px] m-auto rounded-md flex justify-center items-center">
                         <img src="/images/img/Restaurant.png" alt=""
@@ -74,7 +74,7 @@
 
                 {{-- 2 --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-left"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div class="w-full lg:my-8 my-2 max-sm:order-2">
                         <div class="h-full flex flex-col justify-between gap-y-6 gap-x-4 max-sm:gap-y-2 md:px-4 ">
                             <div class="flex lg:flex-col flex-row lg:items-start items-center gap-4 pt-3">
@@ -114,7 +114,7 @@
 
                 {{-- 3 --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-right"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div
                         class="w-full lg:h-[400px] ss:h-[300px] h-[250px] m-auto rounded-md flex justify-center items-center">
                         <img src="/images/img/wellness.png" alt=""
@@ -153,7 +153,7 @@
 
                 {{-- 4  --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-left"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div class="w-full lg:my-8 my-2 max-sm:order-2">
                         <div class="h-full flex flex-col justify-between gap-y-6 gap-x-4 max-sm:gap-y-2 md:px-4">
                             <div class="flex lg:flex-col flex-row lg:items-start items-center gap-4 pt-3">
@@ -191,7 +191,7 @@
 
                 {{-- 5  --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-right"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div
                         class="w-full lg:h-[400px] ss:h-[300px] h-[250px] m-auto rounded-md flex justify-center items-center">
                         <img src="/images/img/Gardens.png" alt=""
@@ -231,7 +231,7 @@
 
                 {{-- 6 --}}
                 <div class="flex max-sm:flex-col max-sm:gap-4 justify-between rounded-sm w-full " data-aos="fade-left"
-                    data-aos-duration="3000">
+                    data-aos-duration="1000">
                     <div class="w-full lg:my-8 my-2 max-sm:order-2">
                         <div class="h-full flex flex-col justify-between gap-y-6 gap-x-4 max-sm:gap-y-2 md:px-4 ">
                             <div class="flex lg:flex-col flex-row lg:items-start items-center gap-4 pt-3">

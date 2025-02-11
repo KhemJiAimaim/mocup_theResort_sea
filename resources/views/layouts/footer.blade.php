@@ -4,10 +4,10 @@
         <!-- Content -->
         <div class="relative max-w-[1536px] m-auto z-10 flex justify-center  text-white lg:py-6 py-4">
             <div
-                class="sm:grid place-items-center lg:grid-cols-4 ss:grid-cols-3 grid-cols-1 gap-2 flex flex-col w-full items-start px-4">
+                class="sm:grid place-items-center lg:grid-cols-4 ss:grid-cols-3 grid-cols-1 gap-2 flex flex-col w-full items-start ss:px-4">
                 <div class="lg:p-4 ss:p-0 p-4 flex flex-col justify-start sm:items-start items-center w-full gap-2 ">
-                    <p class="sm:text-2xl text-xl">Logo here</p>
-                    <p class="font-[300] lg:text-base text-sm sm:text-left text-center w-full lg:py-4 py-2">
+                    <p class="sm:text-2xl text-xl">Logo</p>
+                    <p class="font-[300] ss:text-base text-sm sm:text-left text-center w-full lg:py-4 py-2 capitalize">
                         Lorem ipsum dolor sit amet consectetur. Facilisis vel pellentesque pretium fringilla venenatis
                         sed. Maecenas id urna curabitur consequat. Dictumst nisl lacus volutpat.
                     </p>
@@ -39,20 +39,22 @@
                 </div>
 
                 <div
-                    class="lg:p-4 ss:p-0 p-4 grid sm:grid-cols-1 grid-cols-2 place-items-center w-full h-full items-start">
+                    class="lg:p-4 ss:p-0 p-4 grid sm:grid-cols-1 grid-cols-3 place-items-center w-full h-full items-start gap-2">
                     <a href="/"
-                        class="{{ request()->is('/') ? 'border-b-2 border-white' : '' }} w-36 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">Home</a>
+                        class=" ss:w-36 w-20 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
+                        <p class="{{ request()->is('/') ? 'border-b-2 border-white' : '' }}">Home</p>
+                    </a>
                     <a href="/room"
-                        class="{{ request()->routeIs('room*') ? 'border-b-2 border-white' : '' }} w-36  font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ROOM</a>
+                        class="{{ request()->routeIs('room*') ? 'border-b-2 border-white' : '' }} ss:w-36 w-20 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ROOM</a>
                     <a href="/service"
-                        class="{{ request()->is('service*') ? 'border-b-2 border-white' : '' }} w-36  font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">SERVICE</a>
+                        class="{{ request()->is('service*') ? 'border-b-2 border-white' : '' }} ss:w-36 w-20 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">SERVICE</a>
 
                     <a href="/contact"
-                        class="{{ request()->is('contact') ? 'border-b-2 border-white' : '' }} w-36  font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">contact</a>
+                        class="{{ request()->is('contact') ? 'border-b-2 border-white' : '' }} ss:w-36 w-20 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">contact</a>
                     <a href="/gallery"
-                        class="{{ request()->is('gallery') ? 'border-b-2 border-white' : '' }} w-36  font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">GALLERY</a>
+                        class="{{ request()->is('gallery') ? 'border-b-2 border-white' : '' }} ss:w-36 w-20 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">GALLERY</a>
                     <a href="/about-us"
-                        class="{{ request()->is('about-us') ? 'border-b-2 border-white' : '' }} w-36  font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ABOUT
+                        class="{{ request()->is('about-us') ? 'border-b-2 border-white' : '' }} ss:w-36 w-22 font-[500] tracking-widest sm:text-base text-sm uppercase relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">ABOUT
                         US</a>
                 </div>
 
@@ -60,8 +62,8 @@
                     class="lg:p-4 ss:p-0 p-4 flex flex-col lg:items-start items-center justify-center gap-4 ss:w-full mx-auto ">
                     <p class="font-[500] tracking-widest lg::text-xl text-lg uppercase">CONTACT INFORMATION
                     </p>
-                    <a href="tel:000-000-0000"
-                        class="flex ss:justify-start justify-center items-center gap-4 max-lg:w-full cursor-pointer ">
+                    <div class="flex ss:flex-col xx:flex-row flex-col gap-4">
+                    <a href="tel:000-000-0000" class="flex ss:justify-start justify-center items-center gap-2 max-lg:w-full cursor-pointer ">
                         <div class="w-[25px] h-[25px]">
                             <img src="/images/icon/Group 451.png" alt="" class="w-full h-full">
                         </div>
@@ -70,21 +72,21 @@
                             099-999-xxxx</p>
                     </a>
                     <a href="mailto:THeresort@gmail.com"
-                        class="flex ss:justify-start justify-center items-center gap-4 max-lg:w-full cursor-pointer">
+                        class="flex ss:justify-start justify-center items-center gap-2 max-lg:w-full cursor-pointer">
                         <div class="w-[25px] h-[25px]">
                             <img src="/images/icon/mail.png" alt="" class="w-full h-full">
                         </div>
                         <p
                             class="font-[300] sm:text-base text-sm text-left  w-full relative text-white hover:text-white cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-700 before:absolute before:bg-white  before:origin-center before:h-[2px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-700 after:absolute after:bg-white after:origin-center after:h-[2px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]">
                             THeresort@GMAIL.COM</p>
-                    </a>
+                    </a></div>
                 </div>
 
                 <div class="p-4 flex flex-col sm:items-start items-center gap-2 w-full max-lg:hidden ">
                     <div class="border-b border border-white my-2 w-full m-auto rounded-full lg:hidden"></div>
                     <p class="font-[500] tracking-widest lg::text-xl text-lg uppercase">Location
                     </p>
-                    <p class="font-[300] sm:text-base text-sm sm:text-left text-center w-full py-4">
+                    <p class="font-[300] ss:text-base text-sm sm:text-left text-center w-full py-4 capitalize">
                         Lorem ipsum dolor sit amet consectetur. Facilisis vel pellentesque pretium
                     </p>
                     <div class="">

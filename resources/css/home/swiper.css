@@ -65,3 +65,11 @@ body {
     color: #fff !important;
     font-size: 25px !important;
 }
+
+@media (max-width: 500px) {
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets 
+        {
+        top: 80%;
+    }
+  }
+  
