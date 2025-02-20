@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         slidesPerView: 1, // แสดงเพียง 1 slide
         spaceBetween: 0, // ไม่มีช่องว่างระหว่าง slide
-        mousewheel: true, // เลื่อนด้วยเมาส์
+        // mousewheel: true, // เลื่อนด้วยเมาส์
     });
 });
 

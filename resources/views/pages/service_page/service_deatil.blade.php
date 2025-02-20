@@ -70,7 +70,7 @@
         </div>
 
         <div  class="relative text-white max-w-[1536px] mx-auto pt-12 pb-6 z-50 flex flex-col gap-y-8 justify-center items-center">
-            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="500">
                 <p class="text-[#03203E] xltext-2xl ss:text-lg text-base tracking-widest uppercase">BOOK NOW!</p>
                 <p class="text-black xl:text-4xl ss:text-2xl text-lg tracking-widest capitalize font-[600]">Welcome To The Resort</p>
                 <p class="text-black xl:text-4xl ss:text-2xl text-lg tracking-widest capitalize font-[600]">Book Your Stay Today.</p>

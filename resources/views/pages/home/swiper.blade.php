@@ -5,7 +5,7 @@
             <div
                 class="absolute inset-0 z-50 flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto ">
                 <divp class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in"
-                    data-aos-duration="1000">
+                    data-aos-duration="500">
                     <div class="flex flex-col justify-center items-center sm:gap-y-8 gap-6">
                         <div class="flex items-center justify-center gap-2 ss:w-full w-[80%] mt-12 ">
                             <span class="ss:w-36 xx:w-14 w-6 h-[1px] bg-white rounded-full "></span>
@@ -40,7 +40,7 @@
             <div
                 class="absolute inset-0 z-50 flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto ">
                 <divp class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in"
-                    data-aos-duration="1000">
+                    data-aos-duration="500">
                     <div class="flex flex-col justify-center items-center sm:gap-y-8 gap-6">
                         <div class="flex items-center justify-center gap-2 ss:w-full w-[50%] mt-12 ">
                             <span class="ss:w-36 xx:w-14 w-6 h-[1px] bg-white rounded-full "></span>

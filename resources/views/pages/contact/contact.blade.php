@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     contact us
                 </p>
             </div>
@@ -30,10 +30,10 @@
     </section>
 
     <section class="max-w-[1320px] m-auto px-4 overflow-hidden">
-        <div class="bg-white rounded-2xl flex justify-between xl:items-start items-center md:flex-row flex-col gap-6">
+        <div class="bg-white rounded-2xl flex justify-between xl:items-start items-center md:flex-row flex-col gap-6" data-aos="zoom-in"
+        data-aos-duration="500">
             {{-- 1 --}}
-            <div class="flex flex-col justify-center w-full gap-y-6 md:pt-16 pt-6" data-aos="fade-right"
-                data-aos-duration="1000">
+            <div class="flex flex-col justify-center w-full gap-y-6 md:pt-16 pt-6" >
                 <div class="flex flex-col justify-center items-start max-lg:items-center gap-4">
                     <p class="text-black font-[600] md:text-3xl ss:text-2xl text-xl ">The Resort</p>
                     <p class="text-black sm:text-base text-sm font-extralight">Lorem ipsum dolor sit amet consectetur.
@@ -79,10 +79,9 @@
             </div>
 
             {{-- 2 --}}
-            <div class="w-full flex justify-end xl:items-start items-center ss:flex-row flex-col gap-4" data-aos="fade-left"
-                data-aos-duration="1000">
+            <div class="w-full flex justify-end xl:items-start items-center ss:flex-row flex-col gap-4" >
 
-                <div class="w-full h-auto z-50  cursor-pointer image-container" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="w-full h-auto z-50  cursor-pointer image-container">
                     <img src="/images/img/kjghjg.png" alt="Image" class="w-full h-auto hover:opacity-70 gallery-image">
 
                 </div>
@@ -109,10 +108,10 @@
         <div
             class="relative text-white pt-12 pb-6 z-50 flex flex-col gap-y-8 justify-center items-center max-w-[1000px] m-auto px-4">
             <p class="text-black xl:text-4xl ss:text-2xl text-xl tracking-widest capitalize font-[700]" data-aos="zoom-in"
-                data-aos-duration="1000">Get in touch</p>
+                data-aos-duration="500">Get in touch</p>
 
             <div class="flex flex-row justify-between max-sm:flex-col gap-y-4 gap-x-4 w-full">
-                <div class="flex flex-col justify-between w-full gap-y-4 " data-aos="fade-right" data-aos-duration="1000">
+                <div class="flex flex-col justify-between w-full gap-y-4 " data-aos="fade-right" data-aos-duration="500">
                     <div class="flex flex-col justify-start gap-y-2">
                         <p class="ss:tex-lg text-base text-black uppercase">Name*</p>
                         <input type="text"
@@ -134,7 +133,7 @@
                 </div>
 
 
-                <div class="w-full flex flex-col justify-start gap-y-2" data-aos="fade-left" data-aos-duration="1000">
+                <div class="w-full flex flex-col justify-start gap-y-2" data-aos="fade-left" data-aos-duration="500">
                     <p class="ss:tex-lg text-base text-black uppercase">massage*</p>
                     <textarea name="" id="" cols="30" rows="10"
                         class="w-full text-black sm:text-base text-sm font-extralight rounded-md p-4 outline-none"

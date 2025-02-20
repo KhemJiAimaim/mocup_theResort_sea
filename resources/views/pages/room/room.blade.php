@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     our room
                 </p>
             </div>
@@ -29,14 +29,14 @@
         </div>
     </section>
 
-    <section class="z-50 md:py-12">
-        <div class="max-w-[1536px] m-auto py-12 p-4">
+    <section class="z-50 md:py-16 py-[30px]">
+        <div class="max-w-[1536px] m-auto p-4">
             <div class="flex flex-col sm:gap-y-16 gap-y-8">
                 {{-- img --}}
                 <div
                     class="max-w-[1320px] mx-auto w-full grid sm:grid-cols-2 grid-cols-1 place-items-center sm:gap-6 ss:gap-6 gap-4">
                     {{-- 1 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="500">
 
                         <div class="slider-container xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
@@ -104,7 +104,7 @@
                     </div>
 
                     {{-- 2 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="500">
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
                                 <div class="slider-content flex w-full transition-transform duration-300 ease-in-out">
@@ -174,7 +174,7 @@
                     </div>
 
                     {{-- 3 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="500">
 
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">
@@ -246,7 +246,7 @@
                     </div>
 
                     {{-- 4 --}}
-                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="1000">
+                    <div class="flex flex-col bg-[#03203E] rounded-md" data-aos="zoom-in" data-aos-duration="500">
 
                         <div class="slider-container w-full xl:h-[350px] lg:h-[300px] h-[250px]">
                             <div class="slider relative w-full h-full overflow-hidden">

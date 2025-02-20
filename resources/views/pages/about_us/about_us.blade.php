@@ -13,10 +13,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     about us
                 </p>
             </div>
@@ -29,10 +29,10 @@
         </div>
     </section>
 
-    <div class="xl:my-12 my-6">
+    <div class="xl:my-[30px] my-6">
         <section class=" overflow-hidden">
             <div class="max-w-[1536px] m-auto p-4 flex flex-col ss:gap-y-16 gap-y-8">
-                <div class="flex gap-y-8 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="flex gap-y-8 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="500">
                     <p
                         class="w-full text-center font-[400] ss:text-lg text-base text-black ss:tracking-[8px] tracking-widest">
                         WELCOME TO CARMELINA HOTEL
@@ -60,25 +60,25 @@
                     <div class="swiper-wrapper items-center">
                         {{-- 1 --}}
                         <div class="swiper-slide flex flex-col rounded-sm w-full md:h-[440px] h-[300px]"
-                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                             <img src="/images/img/1111.png" alt="">
                         </div>
 
                         {{-- 2 --}}
                         <div class="swiper-slide flex flex-col rounded-sm w-full md:h-[440px] h-[300px]"
-                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                             <img src="/images/img/2222.png" alt="">
                         </div>
 
                         {{-- 3 --}}
                         <div class="swiper-slide flex flex-col rounded-sm w-full md:h-[440px] h-[300px]"
-                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                             <img src="/images/img/3333.png" alt="">
                         </div>
 
                         {{-- 4 --}}
                         <div class="swiper-slide flex flex-col rounded-sm w-full md:h-[440px] h-[300px]"
-                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1000">
+                            data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                             <img src="/images/img/4444.png" alt="">
                         </div>
 
@@ -100,7 +100,7 @@
 
             <div
                 class="relative text-white max-w-[1536px] mx-auto pt-12 pb-6 z-50 flex flex-col justify-center items-center gap-y-6">
-                <div class="flex gap-2" data-aos="zoom-in" data-aos-duration="800">
+                <div class="flex gap-2" data-aos="zoom-in" data-aos-duration="500">
                     @for ($i = 0; $i < 5; $i++)
                         <div class="h-auto w-[25px] ">
                             <img src="/images/icon/Vector.png" alt="" class="w-full h-full shadow-md">
@@ -108,12 +108,12 @@
                     @endfor
                 </div>
 
-                <div class="flex gap-2 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="flex gap-2 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="500">
                     <p class="text-white xltext-2xl ss:text-lg text-base tracking-widest capitalize">Beach Resort Hotel</p>
                     <p class="text-white xl:text-3xl ss:text-xl text-lg tracking-widest capitalize">Promotional Video</p>
                 </div>
 
-                <div class="" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="" data-aos="zoom-in" data-aos-duration="500">
                     <div class="transition-all ease-in-out duration-300 max-h-[100px] w-auto cursor-pointer overflow-hidden hover:scale-110"
                         id="video-open">
                         <img src="/images/icon/Group 442.png" alt="" class="w-full h-full  ">
@@ -125,15 +125,15 @@
         <section class="overflow-hidden">
             <div class="max-w-[1536px] m-auto py-8 px-4 flex flex-col justify-center gap-y-8 relative">
                 <p class="w-full text-center font-[400] ss:text-lg text-sm text-black ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="1000">
+                    data-aos="zoom-in" data-aos-duration="500">
                     F.A.QS
                 </p>
                 <p class="font-[700] ss:tracking-[8px] sm:text-3xl text-xl text-center capitalize text-black "
-                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);" data-aos="zoom-in" data-aos-duration="1000">
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);" data-aos="zoom-in" data-aos-duration="500">
                     Popular Questions
                 </p>
 
-                <div class="w-full max-md:pt-4 flex flex-col gap-y-6 ss:mt-6" data-aos="fade-up" data-aos-duration="1000">
+                <div class="w-full max-md:pt-4 flex flex-col gap-y-6 ss:mt-6" data-aos="fade-up" data-aos-duration="500">
                     @for ($i = 0; $i < 6; $i++)
                         <div class="flex flex-col items-center py-4 bg-white shadow-md rounded-md p-6"
                             style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">

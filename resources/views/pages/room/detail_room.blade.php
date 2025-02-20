@@ -15,10 +15,10 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="1000" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     Room detail
                 </p>
             </div>
@@ -36,7 +36,7 @@
             {{-- 111 --}}
             <div class="flex gap-4 lg:flex-row flex-col gap-y-4">
                 <div class="flex sm:flex-col flex-col justify-start gap-4 w-full" data-aos="fade-right"
-                    data-aos-duration="1000">
+                    data-aos-duration="500">
                     <!-- img main -->
                     <div class="w-full">
                         <div class="relative 2xl:w-[990px] xl:w-[750px] lg:w-[650px] w-full 2xl:h-[580px] lg:h-[500px]  sm:h-[400px] h-[250px]"
@@ -78,7 +78,7 @@
                     </div>
                 </div>
 
-                <div class="w-full text-black flex flex-col gap-4" data-aos="fade-left" data-aos-duration="1000">
+                <div class="w-full text-black flex flex-col gap-4" data-aos="fade-left" data-aos-duration="500">
                     {{-- 1 --}}
                     <div class="w-full 2xl:h-[580px] h-full rounded-sm xl:p-8 p-4 flex flex-col justify-between gap-4 "
                         style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;">
@@ -149,7 +149,7 @@
 
             {{-- 222 --}}
             <div class="flex justify-between lg:gap-4 gap-y-8  lg:flex-row flex-col xl:p-0  ">
-                <div class="w-full flex flex-col gap-4" data-aos="fade-right" data-aos-duration="1000">
+                <div class="w-full flex flex-col gap-4" data-aos="fade-right" data-aos-duration="500">
                     <div class="2xl:w-[990px] xl:w-[750px] lg:w-[650px] w-full h-auto flex flex-col gap-4">
                         <p class="text-[#03203E] ss:text-3xl text-2xl font-[700] capitalize">House Rules</p>
                         <p class="break-words max-w-[850px] ss:text-lg text-base font-[400] text-[#3E3E3E]">
@@ -164,7 +164,7 @@
                 </div>
 
                 <div class="w-full flex xl:flex-row lg:flex-col ss:flex-row flex-col lg:justify-between  ss:gap-8 gap-y-6"
-                    data-aos="fade-left" data-aos-duration="1000">
+                    data-aos="fade-left" data-aos-duration="500">
 
                     <div class="flex gap-4 flex-col lg:items-start md:items-center items-start">
                         <div class="flex gap-2 justify-start items-center">
@@ -227,7 +227,7 @@
                 <div class="swiper-wrapper items-center">
                     {{-- 1 --}}
                     <div class="swiper-slide flex flex-col" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-                        data-aos-duration="1500">
+                        data-aos-duration="500">
                         <a href="/room/detail" class="rounded-sm block">
                             <div
                                 class="group relative w-full h-[270px] cursor-pointer overflow-hidden shadow-md hover:shadow-2xl rounded-t-sm">
@@ -284,7 +284,7 @@
 
                     {{-- 2 --}}
                     <div class="swiper-slide flex flex-col" data-aos="flip-left"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <a href="/room/detail" class="rounded-sm block">
                             <div class="group relative w-full h-[270px] cursor-pointer overflow-hidden shadow-md hover:shadow-2xl rounded-t-sm">
                                 <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100" src="/images/img/lkhl.png" alt="" />
@@ -337,7 +337,7 @@
 
                     {{-- 3 --}}
                     <div class="swiper-slide flex flex-col" data-aos="flip-left"
-                        data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <a href="/room/detail" class="rounded-sm block">
                             <div
                                 class="group relative w-full h-[270px] cursor-pointer overflow-hidden  shadow-md hover:shadow-2xl rounded-t-sm">

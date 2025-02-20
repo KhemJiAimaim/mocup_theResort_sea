@@ -12,27 +12,30 @@
 @endsection
 
 @section('contents')
-
     @include('pages.home.swiper')
 
-    <section class="max-w-[1536px] z-50 mx-auto py-12 pb-8 px-4 overflow-hidden">
-        <div class="flex flex-rows max-lg:flex-col justify-center items-center 2xl:py-12 gap-6 h-auto">
+    <section class="max-w-[1536px] z-50 mx-auto py-[30px] pb-8 px-4 overflow-hidden">
+        <div class="flex flex-rows max-lg:flex-col justify-center items-center 2xl:py-12 gap-6 h-auto" data-aos="fade-up"
+            data-aos-duration="500">
             {{-- 1  --}}
-            <div class="w-full relative flex max-sm:flex-col gap-6 justify-center items-center max-lg:order-2 h-[450px] max-lg:max-w-[650px] max-sm:h-[250px]"
-                data-aos="fade-right" data-aos-duration="1000">
-                <div
-                    class="absolute top-0 left-10 max-xl:left-0 max-lg:left-16 max-md:left-0 max-w-[300px] max-xl:max-w-[240px] max-xs:max-w-[190px] max-xx:max-w-[170px] h-auto max-ss:h-full">
-                    <img src="/images/img/sscaf.png" alt="" class="w-full h-full shadow-md">
+            <div class="w-full grid grid-cols-2 items-center max-lg:order-2 place-items-center lg:gap-4 gap-2 max-h-full xl:h-[500px] md:h-[400px] ss:h-[350px] h-[250px]">
+
+                <div class="relative w-full h-full">
+                    <div class="lg:h-[80%] h-full absolute top-0 right-0 ">
+                        <img src="/images/img/sscaf.png" alt="" class="w-full h-full shadow-md">
+                    </div>
                 </div>
-                <div
-                    class="absolute bottom-0 max-ss:top-0 right-10 max-xl:right-0 max-lg:right-16 max-md:right-0 max-w-[300px] max-xl:max-w-[240px] max-xs:max-w-[190px] max-xx:max-w-[170px]">
-                    <img src="/images/img/dsvsd.png" alt="" class="w-full h-full shadow-md">
+
+                <div class="relative w-full h-full">
+                    <div class="lg:h-[80%] h-full absolute bottom-0 left-0">
+                        <img src="/images/img/dsvsd.png" alt="" class="w-full h-full shadow-md">
+                    </div>
                 </div>
             </div>
 
             {{-- 2 --}}
-            <div class="w-full flex flex-col justify-center items-start max-lg:items-center sm:gap-y-6 gap-y-4 max-lg:order-1"
-                data-aos="fade-left" data-aos-duration="1000">
+            <div
+                class="w-full flex flex-col justify-center items-start max-lg:items-center sm:gap-y-6 gap-y-4 max-lg:order-1">
 
                 <p class="font-[300] tracking-widest sm:text-2xl text-sm text-[#03203E]"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">
@@ -59,7 +62,7 @@
     </section>
 
     <section class="max-w-[1536px] mx-auto pb-6 overflow-hidden flex flex-col lg:gap-y-8 gap-y-4 px-4">
-        <div class="flex gap-6 flex-col" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="flex gap-6 flex-col" data-aos="zoom-in" data-aos-duration="500">
 
             <div class="flex items-center justify-center gap-2 max-w-[80%] w-full mx-auto">
                 <span class="ss:w-40 xx:w-14 w-6 h-[1px] bg-black rounded-full "></span>
@@ -83,7 +86,7 @@
                 {{-- 1 --}}
                 <div class="swiper-slide flex flex-col gap-4">
                     <div class="group relative ss:w-full  lg:h-[450px] w-[350px] h-[380px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/sddfsdf.png" alt="" />
 
@@ -157,7 +160,7 @@
                 {{-- 2 --}}
                 <div class="swiper-slide flex flex-col gap-4">
                     <div class="group relative ss:w-full lg:h-[450px] w-[350px] h-[380px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/ffgju.png" alt="" />
 
@@ -232,7 +235,7 @@
                 {{-- 3 --}}
                 <div class="swiper-slide flex flex-col gap-4">
                     <div class="group relative ss:w-full lg:h-[450px] w-[350px] h-[380px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/jhnghft.png" alt="" />
 
@@ -307,7 +310,7 @@
                 {{-- 4 --}}
                 <div class="swiper-slide flex flex-col gap-4">
                     <div class="group relative ss:w-full lg:h-[450px] w-[350px] h-[380px] cursor-pointer overflow-hidden rounded-sm shadow-md hover:shadow-2xl"
-                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500">
                         <img class="absolute inset-0 h-full w-full object-cover opacity-90 transition-opacity duration-300 ease-out group-hover:opacity-100 group-hover:transition-opacity group-hover:duration-300"
                             src="/images/img/bfghnjyt.png" alt="" />
 
@@ -382,7 +385,7 @@
         </div>
 
         <!-- Navigation Buttons -->
-        <div class="flex justify-center items-center gap-4 z-50" data-aos="zoom-in" data-aos-duration="800">
+        <div class="flex justify-center items-center gap-4 z-50" data-aos="zoom-in" data-aos-duration="500">
             <div
                 class="prev-btn bg-[#03203E] bg-opacity-30 p-2 rounded-full shadow-md hover:bg-[#03203E] w-10 h-10 flex items-center justify-center">
                 <img src="/images/icon/prev.png" alt="" class="w-6 h-6">
@@ -402,7 +405,7 @@
 
         <div
             class="relative text-white max-w-[1536px] mx-auto pt-12 pb-6 z-50 flex flex-col justify-center items-center gap-y-6">
-            <div class="flex gap-2" data-aos="zoom-in" data-aos-duration="800">
+            <div class="flex gap-2" data-aos="zoom-in" data-aos-duration="500">
                 @for ($i = 0; $i < 5; $i++)
                     <div class="h-auto w-[25px] ">
                         <img src="/images/icon/Vector.png" alt="" class="w-full h-full shadow-md">
@@ -410,12 +413,12 @@
                 @endfor
             </div>
 
-            <div class="flex gap-2 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="800">
+            <div class="flex gap-2 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="500">
                 <p class="text-white xltext-2xl ss:text-lg text-base tracking-widest capitalize">Beach Resort Hotel</p>
                 <p class="text-white xl:text-3xl ss:text-xl text-lg tracking-widest capitalize">Promotional Video</p>
             </div>
 
-            <div class="" data-aos="zoom-in" data-aos-duration="800">
+            <div class="" data-aos="zoom-in" data-aos-duration="500">
                 <div class="transition-all ease-in-out duration-300 max-h-[100px] w-auto cursor-pointer overflow-hidden hover:scale-110"
                     id="video-open">
                     <img src="/images/icon/Group 442.png" alt="" class="w-full h-full  ">
@@ -427,7 +430,7 @@
     <section class="ss:py-12 py-6 bg-slate-100 overflow-hidden">
         <div class="max-w-[1536px] mx-auto px-4 flex flex-col justify-center items-center md:gap-12 gap-6">
             <div class="flex justify-center items-center w-full gap-6 flex-col" data-aos="zoom-in"
-                data-aos-duration="800">
+                data-aos-duration="500">
                 <div class="flex items-center justify-center gap-2 max-w-[80%] w-full mx-auto">
                     <span class="ss:w-40 xx:w-14 w-6 h-[1px] bg-black rounded-full "></span>
                     <p
@@ -455,7 +458,7 @@
                 {{-- 1 --}}
                 <a href="{{ route('service.restaurant') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px]  cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -492,7 +495,7 @@
                 {{-- 2 --}}
                 <a href="{{ route('service.swimming') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px] cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -529,7 +532,7 @@
                 {{-- 3 --}}
                 <a href="{{ route('service.wellness') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px]  cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -566,7 +569,7 @@
                 {{-- 4 --}}
                 <a href="{{ route('service.bars') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px]  cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -603,7 +606,7 @@
                 {{-- 5 --}}
                 <a href="{{ route('service.gardens') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px]  cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -640,7 +643,7 @@
                 {{-- 6 --}}
                 <a href="{{ route('service.meeting') }}"
                     class="group relative w-full xl:h-[300px]  xx:h-[200px] h-[160px]  cursor-pointer overflow-hidden rounded-md hover:shadow-2xl bg-slate-100"
-                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500"
+                    data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="500"
                     style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
 
                     <!-- Background Image -->
@@ -687,7 +690,7 @@
 
     <section
         class="max-w-[1536px] mx-auto lg:my-12 my-6  overflow-hidden items-center flex flex-col justify-center md:gap-12 gap-6">
-        <div class="flex gap-6 flex-col" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="flex gap-6 flex-col" data-aos="zoom-in" data-aos-duration="500">
 
             <div class="flex items-center justify-center gap-2 max-w-[80%] w-full mx-auto">
                 <span class="w-40 h-[1px] bg-black rounded-full "></span>
@@ -708,7 +711,7 @@
         <div class="max-w-[1320px] m-auto px-4 grid sm:grid-cols-3 grid-cols-2 sm:gap-4 gap-2 my-6 image-gallery">
             {{-- 1 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/1111.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -721,7 +724,7 @@
 
             {{-- 2 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/2222.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -734,7 +737,7 @@
 
             {{-- 3 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/3333.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -747,7 +750,7 @@
 
             {{-- 4 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/4444.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -760,7 +763,7 @@
 
             {{-- 5 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/5555.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -773,7 +776,7 @@
 
             {{-- 6 --}}
             <div class="max-w-full xl:h-[300px] ss:h-[200px] h-[150px] z-50 relative cursor-pointer image-container"
-                data-aos="zoom-in" data-aos-duration="1500">
+                data-aos="zoom-in" data-aos-duration="500">
                 <img src="/images/img/6666.png" alt="Image"
                     class="w-full h-full rounded-md hover:opacity-70 gallery-image">
                 <div
@@ -801,7 +804,7 @@
 
         <div
             class="relative text-white max-w-[1536px] mx-auto pt-12 pb-6 z-50 flex flex-col gap-y-8 justify-center items-center">
-            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="800">
+            <div class="flex gap-y-4 flex-col justify-center items-center" data-aos="zoom-in" data-aos-duration="500">
                 <p class="text-[#03203E] xltext-2xl ss:text-lg text-base tracking-widest uppercase">BOOK NOW!</p>
                 <p class="text-black xl:text-4xl ss:text-2xl text-lg tracking-widest capitalize font-[600]">Welcome To The
                     Resort</p>
@@ -809,7 +812,7 @@
                     Today.</p>
             </div>
 
-            <div class="" data-aos="zoom-in" data-aos-duration="800">
+            <div class="" data-aos="zoom-in" data-aos-duration="500">
                 <a href="{{ route('room.index') }}"
                     class="transition-all bg-transparent ease-in-out duration-300 text-[#03203E] hover:text-white sm:text-lg text-base rounded-full flex justify-center uppercase border border-[#03203E] items-center text-center shadow-md font-light p-2 w-52 font-[500] m-auto hover:bg-[#03203E] hover:border-[#03203E]"
                     style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">book YOUR ROOM</a>
@@ -876,9 +879,9 @@
                 </div>
             </div>
 
-            <div class="flex justify-center items-center cursor-pointer group mt-2" id="popup-close">
-                <div class="w-12 h-12 cursor-pointer border-2 flex justify-center items-center bg-white rounded-full p-2 
-                 group-hover:border-[#03203E] transition-all duration-300 ease-in-out"
+            <div class="flex absolute justify-end items-end cursor-pointer group right-2 top-2 z-[101]" id="popup-close">
+                <div class="md:w-12 md:h-12 w-8 h-8 cursor-pointer border-2 flex justify-end items-end bg-white rounded-full md:p-2 mx-4
+                     group-hover:border-[#03203E] transition-all duration-300 ease-in-out"
                     id="close-cate">
                     <img src="/images/icon/close-bold-svgrepo-com.png" alt="Close Icon" class="w-full h-full">
                 </div>
