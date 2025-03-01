@@ -13,14 +13,14 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
-            <div class="flex flex-col sm:gap-y-8">
-                <p class="xl:text-8xl ss:text-6xl text-4xl uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                    about us
-                </p>
+            <div class="text-white text-6xl max-xl:text-3xl  font-bold text-center animate__animated animate__zoomIn">
+                <div class="flex flex-col sm:gap-y-8">
+                    <p class="xl:text-8xl ss:text-6xl text-4xl uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
+                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                        about us
+                    </p>
+                </div>
             </div>
-            </p>
         </div>
 
         <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
@@ -50,7 +50,7 @@
                     <p class="font-light ss:text-base text-sm text-center w-full text-[#3E3E3E] ss:max-w-[80%] "> Lorem
                         ipsum dolor sit amet
                         consectetur. Potenti scelerisque aliquet pellentesque volutpat
-                        tempor et. Nulla cras sit tempus at porta auctor dictum erat eu. 
+                        tempor et. Nulla cras sit tempus at porta auctor dictum erat eu.
                     </p>
 
                 </div>
@@ -148,8 +148,7 @@
                                 </div>
                             </div>
 
-                            <div
-                                class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
+                            <div class="transition-all duration-300 ease-in-out max-h-0 opacity-0 overflow-hidden q_detail">
                                 <p class="font-[300] sm:text-base text-sm text-left w-full text-[#3E3E3E] pt-6">
                                     Lorem ipsum dolor sit amet consectetur. Quisque id in tempor pellentesque vestibulum
                                     vulputate egestas fermentum. Mi odio magna lobortis adipiscing sit egestas. Id pharetra

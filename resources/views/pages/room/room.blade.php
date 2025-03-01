@@ -13,14 +13,14 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
-            <div class="flex flex-col sm:gap-y-8">
-                <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
-                    our room
-                </p>
+            <div class="text-white text-6xl max-xl:text-3xl font-bold text-center animate__animated animate__zoomIn">
+                <div class="flex flex-col sm:gap-y-8">
+                    <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
+                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                        our room
+                    </p>
+                </div>
             </div>
-            </p>
         </div>
 
         <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
@@ -159,11 +159,11 @@
 
 
 
-                                <div class="flex justify-center items-center">
-                                    <a href="/room/detail"
-                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
-                                </div>
+                            <div class="flex justify-center items-center">
+                                <a href="/room/detail"
+                                    class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                            </div>
 
 
                             <div
@@ -231,11 +231,11 @@
 
 
 
-                                <div class="flex justify-center items-center">
-                                    <a href="/room/detail"
-                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
-                                </div>
+                            <div class="flex justify-center items-center">
+                                <a href="/room/detail"
+                                    class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                            </div>
 
 
                             <div
@@ -300,11 +300,11 @@
 
 
 
-                                <div class="flex justify-center items-center">
-                                    <a href="/room/detail"
-                                        class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
-                                        style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
-                                </div>
+                            <div class="flex justify-center items-center">
+                                <a href="/room/detail"
+                                    class="transition-all ease-in-out duration-300 font-[500] text-white hover:text-[#03203E] sm:text-lg text-base rounded-full flex justify-center capitalize border border-white items-center text-center shadow-md p-2 w-40 bg-transparent hover:bg-white hover:border-white"
+                                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);">Book Now</a>
+                            </div>
 
 
                             <div

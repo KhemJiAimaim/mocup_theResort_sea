@@ -13,14 +13,14 @@
     <section class=" w-full h-auto relative z-50">
         <div
             class="absolute inset-0 z-50  flex flex-col justify-center items-center gap-y-4  max-sm:gap-y-1 max-w-[1536px] m-auto">
-            <p class="text-white text-6xl max-xl:text-3xl  font-bold text-center" data-aos="zoom-in" data-aos-duration="500">
+            <div  class="text-white text-6xl max-xl:text-3xl  font-bold text-center animate__animated animate__zoomIn">
             <div class="flex flex-col sm:gap-y-8">
                 <p class="xl:text-8xl ss:text-6xl text-4xl  uppercase text-white font-[700] ss:tracking-[8px] tracking-widest"
-                    data-aos="zoom-in" data-aos-duration="500" style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
+                    style="text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);">
                     contact us
                 </p>
             </div>
-            </p>
+            </div>
         </div>
 
         <div class="relative w-full h-[600px] max-2xl:h-[500px] max-lg:h-[350px] max-md:h-[250px]">
@@ -33,7 +33,7 @@
         <div class="bg-white rounded-2xl flex justify-between xl:items-start items-center md:flex-row flex-col gap-6" data-aos="zoom-in"
         data-aos-duration="500">
             {{-- 1 --}}
-            <div class="flex flex-col justify-center w-full gap-y-6 md:pt-16 pt-6" >
+            <div class="flex flex-col justify-center w-full gap-y-6 md:pt-12 pt-6" >
                 <div class="flex flex-col justify-center items-start max-lg:items-center gap-4">
                     <p class="text-black font-[600] md:text-3xl ss:text-2xl text-xl ">The Resort</p>
                     <p class="text-black sm:text-base text-sm font-extralight">Lorem ipsum dolor sit amet consectetur.
@@ -97,7 +97,6 @@
             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-
 
     <section class="relative  overflow-hidden z-50">
         <div class="absolute w-full h-full">
